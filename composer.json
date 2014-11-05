@@ -1,0 +1,24 @@
+{
+    "name": "jo/twb-tabs",
+    "description": "Tabs based on twitter bootstrap",
+	"type": "library",
+    "version": "0.1.0",
+    "keywords": ["nette","tabs","twb"],
+    "homepage": "https://github.com/jan-oliva/JO-TwbTabs",
+    "license": "proprietary",
+	"authors": [
+        {"name": "Jan Oliva", "email": "jan.oliva.jo@gmail.com"}
+    ],
+    "support": {
+        "email": "jan.oliva@jo.gmail.com"
+    },
+    "require": {
+        "php": ">=5.3",
+        "nette/nette" : "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "JO\\": ""
+        }
+    }
+}
