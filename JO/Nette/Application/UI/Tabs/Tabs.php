@@ -66,7 +66,7 @@ class Tabs extends AComponent
 			$l->hrefArgs = array();
 		}
 
-		$l->label = $label;
+		$l->label = $this->translator->translate($label);
 		$l->isEnabled = $enabled;
 		$this->tabs[$name] = $l;
 		return $this;
